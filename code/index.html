@@ -7,6 +7,8 @@
     <script src="../jqueryui/jquery-ui.js"></script>
     <script src="js/index.js"></script>
     <script src="js/jquery.ui.datapicker-zh-CN.js"></script>
+    <script src="../jquery/jquery.validate.js"></script>
+    <script src="../jquery/messages_zh.js"></script>
 
     <link rel="stylesheet" href="../jqueryui/jquery-ui.css">
     <link rel="stylesheet" href="css/index.css">
@@ -15,51 +17,28 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/bitbug_favicon.ico">
 </head>
 <body>
-<div id="header">
-    <div class="header_main">
-        <h1>知问</h1>
-        <div class="header_search">
-            <input type="text" name="search" class="search">
-        </div>
-        <div class="header_button">
-            <button id="search_button">查询</button>
-        </div>
-        <div class="header_member">
-            <a href="###" id="reg_a">注册</a> | <a href="###" id="login_a">登陆</a>
-        </div>
-    </div>
-</div>
+<form action="123" id="reg">
+
+    <p>账号: <input type="text" name="user" ></p>
+    <p>密码: <input type="text" name="pass" id="pass"></p>
+
+    <!--
+    <p>邮箱: <input type="text" name="email" ></p>
+    <p>网址: <input type="text" name="net" ></p>
+    <p>日期: <input type="text" name="date" ></p>
+    <p>日期: <input type="text" name="date2" ></p>
+    <p>数字: <input type="text" name="number" ></p>
+    <p>正整数: <input type="text" name="number2" ></p>
+    &lt;!&ndash;<p>信用卡: <input type="text" name="credit" ></p>&ndash;&gt;
+    <p>密码: <input type="text" name="pass" id="pass"></p>
+    <p>确认密码: <input type="text" name="pass2"></p>
+    <p>不小于5: <input type="text" name="min"></p>
+    <p>区间数: <input type="text" name="range"></p>
+    <p>区间字长: <input type="text" name="length"></p>
+    -->
+    <p><input type="submit" value="提交"></p>
 
 
-<div id="reg" title="会员注册">
-    <p>
-        <label for="user">账号:</label>
-        <input type="text" name="user" class="text" id="user" title="请输入账号,不少于2位">
-        <span class="star">*</span>
-    </p>
-
-    <p>
-        <label for="pass">密码:</label>
-        <input type="password" name="pass" class="text" id="pass" title="请输入密码,不少于6位">
-        <span class="star">*</span>
-    </p>
-
-    <p>
-        <label for="email">邮箱:</label>
-        <input type="email" name="user" class="text" id="email" title="请输入邮箱">
-        <span class="star">*</span>
-    </p>
-
-    <p>
-        <label>性别:</label>
-            <input type="radio" name="sex" value="male" id="male" checked="checked"><label for="male">男</label></input><input type="radio" name="sex" value="female" id="female"><label for="female">女</label></input>
-    </p>
-
-    <p>
-        <label for="date">生日:</label>
-        <input type="text" name="date" class="text" id="date" readonly="readonly">
-    </p>
-</div>
-
+</form>
 </body>
 </html>

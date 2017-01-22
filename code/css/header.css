@@ -1,0 +1,128 @@
+body{
+    margin: 40px 0 0 0 ;
+    padding: 0;
+    font-size: 12px;
+    font-family:宋体;
+    background-color: #fff;
+}
+
+/*更改jqueryui主题的对话框header的背景*/
+.ui-widget-header{
+    background:url("../img/bg1.png");
+    color: #888;
+}
+/*自定义按钮背景*/
+/*.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{*/
+    /*background: url("../img/bg1.png");*/
+/*}*/
+
+/*工具提示的文本颜色*/
+.ui-tooltip{
+    color: blue;
+}
+
+/*自动补全功能背景色*/
+/*.ui-menu-item a.ui-state-focus{*/
+    /*background:url("../img/bg1.png");*/
+/*}*/
+/*.ui-menu-item a{*/
+    /*color: red;*/
+/*}*/
+
+/*日历UI的今天单元格样式*/
+.ui-datepicker-today .ui-state-highlight{
+    border: 1px solid red;
+    background: cyan;
+    color: blue;
+}
+/*日历UI的选定单元格样式*/
+.ui-datepicker-current-day .ui-state-active{
+    border: 1px solid blue;
+    background: yellow;
+    color: black;
+}
+
+
+#header{
+    width: 100%;
+    height: 40px;
+    /*background: url("../img/bg1.png");*/
+    background-color: #cccccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#header .header_main{
+    width: 800px;
+    height: 40px;
+    margin: 0 auto;
+}
+#header .header_main h1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    padding: 0 10px;
+}
+#header .header_search{
+    float: left;
+    padding-top:6px;
+}
+#header .header_search .search{
+    width: 300px;
+    height: 24px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #666;
+    font-size: 14px;
+    text-indent: 5px;
+}
+
+#header .header_button{
+    padding: 5px;
+    float: left;
+}
+
+#header .header_member{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    color: #555;
+    font-size: 14px;
+}
+#header .header_member a{
+    text-decoration: none;
+    color: #555;
+}
+
+#reg{
+    padding: 15px;
+}
+#reg p{
+    margin: 10px 0;
+    padding: 0;
+}
+
+#reg  p label{
+    font-size: 14px;
+    color: #666;
+}
+#reg .text{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 200px;
+    height: 25px;
+    color: #666;
+    line-height: 25px;
+    text-indent: 5px;
+}
+
+#reg .star{
+    font-size: 14px;
+    color: red;
+}
+
